@@ -1,0 +1,7 @@
+.App-panel {
+  margin: 5px;
+  padding: 10px;
+  box-shadow: 3px 3px 3px #ddd;
+  border: 1px solid #ccc;
+  width: 60%;
+}
