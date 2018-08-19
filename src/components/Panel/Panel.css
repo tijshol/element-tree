@@ -1,0 +1,10 @@
+.Panel {
+  margin: 5px;
+  padding: 10px;
+  width: 400px;
+  background-color: #222;
+}
+
+.Panel .margin {
+  margin: 10px 0;
+}

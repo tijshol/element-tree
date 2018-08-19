@@ -1,5 +1,10 @@
 import React, { Component } from 'react';
-import '../App.css';
+import './Panel.css';
+
+/* Panel
+ *
+ * A general container with a border and a title.
+ */
 
 class Panel extends Component {
   constructor(props) {
@@ -8,9 +13,9 @@ class Panel extends Component {
 
   render() {
     return (
-      <div className="Panel App-panel">
+      <div className="Panel">
       	<b>{this.props.title}</b>
-        <p>{this.props.children}</p>
+        <div className="margin">{this.props.children}</div>
       </div>
     );
   }
